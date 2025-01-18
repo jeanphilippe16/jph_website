@@ -1,0 +1,31 @@
+export const translations = {
+  en: {
+    navigation: { home: 'Home', gallery: 'Gallery', contact: 'Contact', about: 'About' },
+    gallery: {
+      events: 'Events', contractor: 'Pro Contractor Shooting', weddings: 'Weddings',
+      concerts: 'Concerts & Shows', personal: 'Personal Shoots', brand: 'Special Brand Shoots',
+      residence: 'Residence Photos', brandStudio: 'Brand Studio Shoots',
+      studio: 'Studio Shoots', polaroid: 'Polaroid for Modeling Agencies'
+    },
+    contact: {
+      title: 'Contact Us', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
+      facebook: 'Facebook', calls: 'Calls', instagram: 'Instagram'
+    },
+    about: { text: 'We are a professional photography structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
+  },
+  fr: {
+    navigation: { home: 'Accueil', gallery: 'Galerie', contact: 'Contact', about: 'À propos' },
+    gallery: {
+      events: 'Événements', contractor: 'Shooting Pro Entrepreneur', weddings: 'Mariages',
+      concerts: 'Concerts & Spectacles', personal: 'Séances Personnelles',
+      brand: 'Séances Marques Spéciales', residence: 'Photos de Résidence',
+      brandStudio: 'Séances Studio de Marque', studio: 'Séances Studio',
+      polaroid: 'Polaroid pour Agences de Mannequins'
+    },
+    contact: {
+      title: 'Contactez-nous', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
+      facebook: 'Facebook', calls: 'Appels', instagram: 'Instagram'
+    },
+    about: { text: 'Nous sommes une structure de photographie professionnelle, et nous sommes prêts à réaliser vos rêves avec des visuels de haute qualité. Vous ne serez pas déçu. Contactez-nous pour réserver votre rendez-vous.' }
+  }
+};
