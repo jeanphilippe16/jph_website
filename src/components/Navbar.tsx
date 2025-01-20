@@ -10,9 +10,9 @@ export const Navbar = () => {
   const links = ['home', 'gallery', 'contact', 'about'];
 
   return (
-    <nav className="bg-black text-white p-4 fixed w-full z-50">
-      <div className="container mx-auto flex items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
+    <nav className="fixed w-full z-50">
+      <div className="container mx-auto flex items-center justify-between p-4">
+        <Link to="/" className="flex items-center space-x-2 text-white">
           <Camera className="h-8 w-8" />
           <span className="text-xl font-bold">1966 Visuals</span>
         </Link>
@@ -22,14 +22,14 @@ export const Navbar = () => {
             <Link
               key={link}
               to={link === 'home' ? '/' : `/${link}`}
-              className={`hover:text-gray-300 ${location.pathname === (link === 'home' ? '/' : `/${link}`) ? 'text-yellow-400' : ''}`}
+              className={`hover:text-gray-300 text-white ${location.pathname === (link === 'home' ? '/' : `/${link}`) ? 'text-yellow-400' : ''}`}
             >
               {t(`navigation.${link}`)}
             </Link>
           ))}
           <button
             onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'fr' : 'en')}
-            className="px-3 py-1 border border-white rounded hover:bg-white hover:text-black transition-colors"
+            className="px-3 py-1 border border-white rounded text-white hover:bg-white hover:text-black transition-colors"
           >
             {i18n.language === 'en' ? 'FR' : 'EN'}
           </button>

@@ -10,7 +10,7 @@ import './i18n/i18n';
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-black">
+      <div className="min-h-screen">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
