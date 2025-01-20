@@ -8,7 +8,7 @@ export const Home = () => {
       <div 
         className="absolute inset-0"
         style={{
-          backgroundImage: 'url(https://asset.mmm.dev/ab/c4c5a85e434711839010672c718df1/zu2mas.jpg?width=512',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&q=80)',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
