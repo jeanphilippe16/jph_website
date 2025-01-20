@@ -9,8 +9,8 @@ export const Contact = () => {
     { type: 'email', icon: Mail, link: 'mailto:1966visuals@gmail.com', value: '1966visuals@gmail.com' },
     { type: 'facebook', icon: Facebook, link: 'https://www.facebook.com/profile.php?id=61566974230159', value: '1966 Visuals' },
     { type: 'calls', icon: Phone, link: 'tel:+2250151205774', value: '+225 01 51 20 57 74' },
-    { type: 'tiktok', icon: Phone, link: '#', value: 'http://tiktok.com/@1966visualstiktok' },
-    { type: 'instagram', icon: Instagram, link: '#', value: 'https://www.instagram.com/1966visuals/profilecard/?igsh=MThvcHM2eTVvNWYzbg==' }
+    { type: 'tiktok', icon: Phone, link: '#', value: 'tiktok.com/@1966visualstiktok' },
+    { type: 'instagram', icon: Instagram, link: '#', value: 'https://www.instagram.com/1966visuals?igsh=MXA5Mmw2a3Y5Mjd6OQ==' }
   ];
 
   return (
