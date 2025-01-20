@@ -9,8 +9,8 @@ i18n
       en: { translation: translations.en },
       fr: { translation: translations.fr }
     },
-    lng: 'en',
-    fallbackLng: 'en',
+    lng: 'fr',
+    fallbackLng: 'fr',
     interpolation: {
       escapeValue: false
     }
