@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import { X } from 'lucide-react';
 
 export const Gallery = () => {
   const { t } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const categories = [
     'events', 'contractor', 'weddings', 'concerts', 'personal',
@@ -108,8 +110,18 @@ export const Gallery = () => {
     ]
   };
 
+
+
   const handleCategoryClick = (category: string) => {
     setSelectedCategory(category === selectedCategory ? null : category);
+  };
+
+  const handleImageClick = (imageUrl: string) => {
+    setSelectedImage(imageUrl);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
   };
 
   return (
@@ -155,7 +167,8 @@ export const Gallery = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="relative aspect-square overflow-hidden group"
+                  className="relative aspect-square overflow-hidden group cursor-pointer"
+                  onClick={() => handleImageClick(photo)}
                 >
                   <img
                     src={`${photo}?auto=format&fit=crop&w=800&q=80`}
@@ -167,6 +180,34 @@ export const Gallery = () => {
             </div>
           </div>
         )}
+
+        <AnimatePresence>
+          {selectedImage && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4"
+              onClick={closeModal}
+            >
+              <button
+                className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
+                onClick={closeModal}
+              >
+                <X size={32} />
+              </button>
+              <motion.img
+                initial={{ scale: 0.9 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.9 }}
+                src={`${selectedImage}?auto=format&fit=contain&w=1920&h=1080&q=80`}
+                alt="Selected"
+                className="max-w-full max-h-[90vh] object-contain"
+                onClick={(e) => e.stopPropagation()}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );
