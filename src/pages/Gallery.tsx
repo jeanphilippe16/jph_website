@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X } from 'lucide-react';
+import { X, ArrowRight } from 'lucide-react';
 
 export const Gallery = () => {
   const { t } = useTranslation();
@@ -111,7 +111,6 @@ export const Gallery = () => {
   };
 
 
-
   const handleCategoryClick = (category: string) => {
     setSelectedCategory(category === selectedCategory ? null : category);
   };
@@ -136,17 +135,23 @@ export const Gallery = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="relative aspect-square overflow-hidden group cursor-pointer"
-                onClick={() => handleCategoryClick(category)}
               >
                 <img
                   src={`${categoryPhotos[category][0]}?auto=format&fit=crop&w=800&q=80`}
                   alt={t(`gallery.${category}`)}
                   className="object-cover w-full h-full transform group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                  <h3 className="text-white text-xl font-semibold text-center px-4">
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
+                  <h3 className="text-white text-xl font-semibold text-center px-4 mb-4">
                     {t(`gallery.${category}`)}
                   </h3>
+                  <button
+                    onClick={() => handleCategoryClick(category)}
+                    className="flex items-center space-x-2 text-white hover:text-yellow-400 transition-colors"
+                  >
+                    <span>{t('gallery.seeMore')}</span>
+                    <ArrowRight size={20} />
+                  </button>
                 </div>
               </motion.div>
             ))}

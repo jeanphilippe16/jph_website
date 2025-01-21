@@ -5,7 +5,8 @@ export const translations = {
       events: 'Events', contractor: 'Pro Contractor Shooting', weddings: 'Weddings',
       concerts: 'Concerts & Shows', personal: 'Personal Shoots', brand: 'Special Brand Shoots',
       residence: 'Residence Photos', brandStudio: 'Brand Studio Shoots',
-      studio: 'Studio Shoots', polaroid: 'Polaroid for Modeling Agencies'
+      studio: 'Studio Shoots', polaroid: 'Polaroid for Modeling Agencies',
+      seeMore: 'See more'
     },
     contact: {
       title: 'Contact Us', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
@@ -15,12 +16,15 @@ export const translations = {
   },
   fr: {
     navigation: { home: 'Accueil', gallery: 'Galerie', contact: 'Contact', about: 'À propos' },
+    heroSubtitle:'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif',
+
     gallery: {
       events: 'Événements', contractor: 'Shooting Pro Entrepreneur', weddings: 'Mariages',
       concerts: 'Concerts & Spectacles', personal: 'Séances Personnelles',
       brand: 'Séances Marques Spéciales', residence: 'Photos de Résidence',
       brandStudio: 'Séances Studio de Marque', studio: 'Séances Studio',
-      polaroid: 'Polaroid pour Agences de Mannequins'
+      polaroid: 'Polaroid pour Agences de Mannequins',
+      seeMore: 'Voir plus'
     },
     contact: {
       title: 'Contactez-nous', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
