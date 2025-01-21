@@ -17,7 +17,7 @@ export const translations = {
   },
   fr: {
     navigation: { home: 'Accueil', gallery: 'Galerie', contact: 'Contact', about: 'À propos' },
-    heroSubtitle:'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif',
+    className: { heroSubtitle:'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif'},
 
     gallery: {
       events: 'Événements', contractor: 'Shooting Pro Entrepreneur', weddings: 'Mariages',
