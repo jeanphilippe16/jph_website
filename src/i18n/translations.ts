@@ -13,7 +13,7 @@ export const translations = {
       title: 'Contact Us', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
       facebook: 'Facebook', calls: 'Calls', instagram: 'Instagram'
     },
-    about: { text: 'We are a professional photography structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
+    about: { text: 'We are a professional audiovusial structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
   },
   fr: {
     navigation: { home: 'Accueil', gallery: 'Galerie', contact: 'Contact', about: 'À propos' },
@@ -31,6 +31,6 @@ export const translations = {
       title: 'Contactez-nous', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
       facebook: 'Facebook', calls: 'Appels', instagram: 'Instagram'
     },
-    about: { text: 'Nous sommes une structure de photographie professionnelle, et nous sommes prêts à réaliser vos rêves avec des visuels de haute qualité. Vous ne serez pas déçu. Contactez-nous pour réserver votre rendez-vous.' }
+    about: { text: 'Nous sommes une structure audiovisuel professionnelle, et nous sommes prêts à réaliser vos rêves avec des visuels de haute qualité. Vous ne serez pas déçu. Contactez-nous pour réserver votre rendez-vous.' }
   }
 };
