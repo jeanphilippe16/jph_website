@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    navigation: { home: 'Home', achievement: 'Achievement', contact: 'Contact', about: 'About' },
+    navigation: { home: 'Home', achievement: 'Achievements', contact: 'Contact', about: 'About' },
     heroSubtitle: 'Capturing moments, creating memories, telling stories through the lens',
     gallery: {
       events: 'Events', contractor: 'Pro Contractor Shooting', weddings: 'Weddings',
