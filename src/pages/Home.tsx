@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="fixed inset-0 bg-black">
       {/* Background image */}
@@ -25,7 +28,7 @@ export const Home = () => {
       >
         <h1 className="text-6xl font-bold mb-6">1966 Visuals</h1>
         <p className="text-xl max-w-2xl">
-          Capturing moments, creating memories, telling stories through the lens
+          {t('heroSubtitle')}
         </p>
       </motion.div>
     </div>

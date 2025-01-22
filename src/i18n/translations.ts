@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     navigation: { home: 'Home', gallery: 'Gallery', contact: 'Contact', about: 'About' },
-    className:  {heroSubtitle:'Capturing moments, creating memories, telling stories through the lens'},
+    heroSubtitle: 'Capturing moments, creating memories, telling stories through the lens',
     gallery: {
       events: 'Events', contractor: 'Pro Contractor Shooting', weddings: 'Weddings',
       concerts: 'Concerts & Shows', personal: 'Personal Shoots', brand: 'Special Brand Shoots',
@@ -13,12 +13,11 @@ export const translations = {
       title: 'Contact Us', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
       facebook: 'Facebook', calls: 'Calls', instagram: 'Instagram'
     },
-    about: { text: 'We are a professional audiovusial structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
+    about: { text: 'We are a professional audiovisual structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
   },
   fr: {
     navigation: { home: 'Accueil', gallery: 'Galerie', contact: 'Contact', about: 'À propos' },
-    className: { heroSubtitle:'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif'},
-
+    heroSubtitle: 'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif',
     gallery: {
       events: 'Événements', contractor: 'Shooting Pro Entrepreneur', weddings: 'Mariages',
       concerts: 'Concerts & Spectacles', personal: 'Séances Personnelles',
