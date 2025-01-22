@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Phone, Mail, Facebook, Instagram } from 'lucide-react';
+import { Phone, Mail, Facebook, Instagram, Youtube } from 'lucide-react';
 
 export const Contact = () => {
   const { t } = useTranslation();
@@ -10,7 +10,8 @@ export const Contact = () => {
     { type: 'facebook', icon: Facebook, link: 'https://www.facebook.com/share/15cTTz8x3D/', value: '1966 Visuals' },
     { type: 'calls', icon: Phone, link: 'tel:+2250151205774', value: '+225 01 51 20 57 74' },
     { type: 'tiktok', icon: Phone, link: 'http://www.tiktok.com/@1966visualstiktok', value: '1966 Visualstiktok'},
-    { type: 'instagram', icon: Instagram, link: 'https://www.instagram.com/1966visuals?igsh=MXA5Mmw2a3Y5Mjd6OQ==', value: '1966 Visuals'}
+    { type: 'instagram', icon: Instagram, link: 'https://www.instagram.com/1966visuals?igsh=MXA5Mmw2a3Y5Mjd6OQ==', value: '1966 Visuals'},
+    { type: 'youtube', icon: Youtube, link: 'https//www.youtube/@1966visuals-off', value: '1966visuals-off'}
   ];
 
   return (
