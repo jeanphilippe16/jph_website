@@ -12,7 +12,7 @@ export const Contact = () => {
     { type: 'calls', icon: Phone, link: 'tel:+2250151205774', value: '+225 01 51 20 57 74' },
     { type: 'tiktok', icon: TikTokIcon, link: 'http://www.tiktok.com/@1966visualstiktok', value: '@1966visuals' },
     { type: 'instagram', icon: Instagram, link: 'https://www.instagram.com/1966visuals?igsh=MXA5Mmw2a3Y5Mjd6OQ==', value: '@1966visuals' },
-    { type: 'youtub', icon: Youtube, link: 'https://youtube.com/@1966visuals-off?si=hMcmVV5g7gFLHQK8', value: '1966 Visuals' }
+    { type: 'youtube', icon: Youtube, link: 'https://youtube.com/@1966visuals-off?si=hMcmVV5g7gFLHQK8', value: '1966 Visuals' }
   ];
 
   return (
