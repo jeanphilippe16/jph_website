@@ -7,7 +7,7 @@ export const Navbar = () => {
   const { t, i18n } = useTranslation();
   const location = useLocation();
 
-  const links = ['home', 'achievements', 'contact', 'about'];
+  const links = ['home', 'achievement', 'contact', 'about'];
 
   return (
     <nav className="fixed w-full z-50">
