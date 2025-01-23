@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    navigation: { home: 'Home', achievements: 'Achievements', contact: 'Contact', about: 'About' },
+    navigation: { home: 'Home', achievement: 'Achievement', contact: 'Contact', about: 'About' },
     heroSubtitle: 'Capturing moments, creating memories, telling stories through the lens',
     gallery: {
       events: 'Events', contractor: 'Pro Contractor Shooting', weddings: 'Weddings',
@@ -11,12 +11,12 @@ export const translations = {
     },
     contact: {
       title: 'Contact Us', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
-      facebook: 'Facebook', calls: 'Calls', instagram: 'Instagram'
+      facebook: 'Facebook', calls: 'Calls', instagram: 'Instagram', youtube: 'YouTube'
     },
-    about: { text: 'We are a professional audiovisual structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
+    about: { text: 'We are a professional photography structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
   },
   fr: {
-    navigation: { home: 'Accueil', achievements: 'Réalisations', contact: 'Contact', about: 'À propos' },
+    navigation: { home: 'Accueil', achievement: 'Réalisations', contact: 'Contact', about: 'À propos' },
     heroSubtitle: 'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif',
     gallery: {
       events: 'Événements', contractor: 'Shooting Pro Entrepreneur', weddings: 'Mariages',
@@ -28,8 +28,8 @@ export const translations = {
     },
     contact: {
       title: 'Contactez-nous', whatsapp: 'WhatsApp', email: 'Email', tiktok: 'TikTok',
-      facebook: 'Facebook', calls: 'Appels', instagram: 'Instagram'
+      facebook: 'Facebook', calls: 'Appels', instagram: 'Instagram', youtube: 'YouTube'
     },
-    about: { text: 'Nous sommes une structure audiovisuel professionnelle, et nous sommes prêts à réaliser vos rêves avec des visuels de haute qualité. Vous ne serez pas déçu. Contactez-nous pour réserver votre rendez-vous.' }
+    about: { text: 'Nous sommes une structure de photographie professionnelle, et nous sommes prêts à réaliser vos rêves avec des visuels de haute qualité. Vous ne serez pas déçu. Contactez-nous pour réserver votre rendez-vous.' }
   }
 };

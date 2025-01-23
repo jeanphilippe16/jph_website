@@ -1,17 +1,18 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Phone, Mail, Facebook, Instagram, Youtube } from 'lucide-react';
+import { Mail, Facebook, Instagram, Youtube, MessageCircle } from 'lucide-react';
+import { TikTokIcon } from '../components/TikTokIcon';
 
 export const Contact = () => {
   const { t } = useTranslation();
   const contacts = [
-    { type: 'whatsapp', icon: Phone, link: 'https://wa.me/22577524618', value: '+225 77 52 46 18' },
+    { type: 'whatsapp', icon: MessageCircle, link: 'https://wa.me/22577524618', value: '+225 77 52 46 18' },
     { type: 'email', icon: Mail, link: 'mailto:1966visuals@gmail.com', value: '1966visuals@gmail.com' },
-    { type: 'facebook', icon: Facebook, link: 'https://www.facebook.com/share/15cTTz8x3D/', value: '1966 Visuals' },
+    { type: 'facebook', icon: Facebook, link: 'https://www.facebook.com/profile.php?id=61566974230159', value: '1966 Visuals' },
     { type: 'calls', icon: Phone, link: 'tel:+2250151205774', value: '+225 01 51 20 57 74' },
-    { type: 'tiktok', icon: Phone, link: 'http://www.tiktok.com/@1966visualstiktok', value: '1966 Visualstiktok'},
-    { type: 'instagram', icon: Instagram, link: 'https://www.instagram.com/1966visuals?igsh=MXA5Mmw2a3Y5Mjd6OQ==', value: '1966 Visuals'},
-    { type: 'youtube', icon: Youtube, link: 'https://youtube.com/@1966visuals-off?si=hMcmVV5g7gFLHQK8', value: '1966 visuals-off'},
+    { type: 'tiktok', icon: TikTokIcon, link: 'http://www.tiktok.com/@1966visualstiktok', value: '@1966visuals' },
+    { type: 'instagram', icon: Instagram, link: 'https://www.instagram.com/1966visuals?igsh=MXA5Mmw2a3Y5Mjd6OQ==', value: '@1966visuals' },
+    { type: 'youtube', icon: Youtube, link: 'https://youtube.com/@1966visuals-off?si=hMcmVV5g7gFLHQK8', value: '1966 Visuals' }
   ];
 
   return (
