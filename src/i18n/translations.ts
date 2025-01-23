@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    navigation: { home: 'Home', achievement: 'Achievement', contact: 'Contact', about: 'About' },
+    navigation: { home: 'Home', achievements: 'Achievements', contact: 'Contact', about: 'About' },
     heroSubtitle: 'Capturing moments, creating memories, telling stories through the lens',
     gallery: {
       images: 'Images',
@@ -32,7 +32,7 @@ export const translations = {
     }
   },
   fr: {
-    navigation: { home: 'Accueil', achievement: 'Réalisations', contact: 'Contact', about: 'À propos' },
+    navigation: { home: 'Accueil', achievements: 'Réalisations', contact: 'Contact', about: 'À propos' },
     heroSubtitle: 'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif',
     gallery: {
       images: 'Images',
