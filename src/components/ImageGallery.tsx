@@ -111,8 +111,6 @@ export const ImageGallery = () => {
   };
 
 
-  };
-
   const handleCategoryClick = (category: string) => {
     setSelectedCategory(category === selectedCategory ? null : category);
   };
