@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    navigation: { home: 'Home', achievement: 'Achievements', contact: 'Contact', about: 'About' },
+    navigation: { home: 'Home', achievements: 'Achievements', contact: 'Contact', about: 'About' },
     heroSubtitle: 'Capturing moments, creating memories, telling stories through the lens',
     gallery: {
       events: 'Events', contractor: 'Pro Contractor Shooting', weddings: 'Weddings',
@@ -16,7 +16,7 @@ export const translations = {
     about: { text: 'We are a professional photography structure, and we are ready to make your dreams come true with high quality visuals. You won\'t be disappointed. Contact us to book your appointment.' }
   },
   fr: {
-    navigation: { home: 'Accueil', achievement: 'Réalisations', contact: 'Contact', about: 'À propos' },
+    navigation: { home: 'Accueil', achievements: 'Réalisations', contact: 'Contact', about: 'À propos' },
     heroSubtitle: 'Capturer des moments, créer des souvenirs, raconter des histoires à travers l\'objectif',
     gallery: {
       events: 'Événements', contractor: 'Shooting Pro Entrepreneur', weddings: 'Mariages',
