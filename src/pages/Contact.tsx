@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Mail, Facebook, Instagram, Youtube, MessageCircle } from 'lucide-react';
+import { Mail, Facebook, Instagram, Youtube, MessageCircle,Phone } from 'lucide-react';
 import { TikTokIcon } from '../components/TikTokIcon';
 
 export const Contact = () => {
