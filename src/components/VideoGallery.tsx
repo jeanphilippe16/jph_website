@@ -8,17 +8,8 @@ export const VideoGallery = () => {
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
   const videos = [
-    'https://player.vimeo.com/video/367512707',
-    'https://player.vimeo.com/video/369161837',
-    'https://player.vimeo.com/video/374265101',
-    'https://player.vimeo.com/video/381244562',
-    'https://player.vimeo.com/video/383189368',
-    'https://player.vimeo.com/video/384085609',
-    'https://player.vimeo.com/video/386386337',
-    'https://player.vimeo.com/video/387108375',
-    'https://player.vimeo.com/video/388773824',
-    'https://player.vimeo.com/video/389496607',
-    'https://player.vimeo.com/video/390876189'
+    'https://youtu.be/NfSzEhQyTlA?si=j7C-sUPeQb_iJjw2',
+    'https://youtu.be/UM9igDKkNv8?si=-4Ix6whPrKZpnuco',
   ];
 
   const closeModal = () => {
