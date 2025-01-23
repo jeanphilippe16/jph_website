@@ -8,8 +8,8 @@ export const VideoGallery = () => {
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
   const videos = [
-    'https://youtu.be/NfSzEhQyTlA?si=j7C-sUPeQb_iJjw2',
-    'https://youtu.be/UM9igDKkNv8?si=-4Ix6whPrKZpnuco',
+    'https://youtu.be/embed/NfSzEhQyTlA?si=j7C-sUPeQb_iJjw2',
+    'https://youtu.be/embed/UM9igDKkNv8?si=-4Ix6whPrKZpnuco',
   ];
 
   const closeModal = () => {
