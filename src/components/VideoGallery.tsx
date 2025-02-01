@@ -10,6 +10,7 @@ export const VideoGallery = () => {
   const videos = [
     'https://www.youtube.com/embed/UM9igDKkNv8?si=TG82sVIKthed2MD4',
     'https://www.youtube.com/embed/NfSzEhQyTlA?si=pHLQU0HQrzfM01HO',
+    'https://youtube.com/shorts/Fdni1ggHghc?si=FEM7E0NsHIc175Y1'
   ];
 
   const closeModal = () => {
