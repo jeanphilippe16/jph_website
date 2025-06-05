@@ -13,7 +13,6 @@ export const VideoGallery = () => {
     'https://www.youtube.com/embed/160MMWsZfLM?si=VWXg15t0zL5VVYpn',
     'https://www.youtube.com/embed/ZV3SlpcNb-0?si=yj6p8IEA7jUYvYST',
     'https://www.youtube.com/embed/4jCpec_uOYA?si=So7Aoxc8ZgiT6J90',
-    'https://www.youtube.com/embed/4jCpec_uOYA?si=So7Aoxc8ZgiT6J90',
     'https://www.youtube.com/embed/CNqy_DYafec?si=WSXp0Izz1N0uJ-l5'
   ];
 
